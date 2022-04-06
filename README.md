@@ -1,6 +1,6 @@
 # praktikum_alpro_363_358_360
 
-    kelompok praktikum algoritma pemrograman
+    kelompok praktikum algoritma pemrograman 2022
 
 ## Anggota
 
