@@ -1,0 +1,9 @@
+150000 -> total harga
+14000 -> diskon
+15000 -> ongkir
+165000 -> total harga setelah diskon
+1 -> ayam geprek
+5 -> ayam goreng
+4 -> udang goreng
+3 -> cumi goreng
+2 -> ayam bakar
