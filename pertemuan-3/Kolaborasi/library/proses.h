@@ -86,13 +86,11 @@ public:
 		{
 			ongkir = ongkir - 8000;
 			hargaFinal = ongkir + (total - hargaDiskon);
-			cout << "ongkir : " << ongkir << endl;
 		}
 		else if (total >= batas1)
 		{
 			ongkir = ongkir - 8000;
 			hargaFinal = ongkir + total;
-			cout << "ongkir : " << ongkir << endl;
 		}
 		else
 		{

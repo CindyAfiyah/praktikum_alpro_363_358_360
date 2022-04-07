@@ -4,7 +4,8 @@
 #include "kolaborasi/library/output.h"
 #include "kolaborasi/library/proses.h"
 
-int main(){
+int main()
+{
   Input input;
   input.cetak();
   input.toFile();
