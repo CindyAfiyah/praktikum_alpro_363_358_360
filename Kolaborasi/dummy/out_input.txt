@@ -1,6 +1,0 @@
-1 -> ayam geprek
-5 -> ayam goreng
-4 -> udang goreng
-3 -> cumi goreng
-2 -> ayam bakar
-3 -> jarak

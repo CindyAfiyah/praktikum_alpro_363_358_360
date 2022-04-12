@@ -1,10 +1,13 @@
 #include <iostream>
 #include <fstream>
-#include "kolaborasi/library/input.h"
-#include "kolaborasi/library/output.h"
-#include "kolaborasi/library/proses.h"
+#include "library/input.h"
+#include "library/proses.h"
+#include "library/output.h"
 
-int main(){
+using namespace std;
+
+int main()
+{
   Input input;
   input.cetak();
   input.toFile();
@@ -16,6 +19,4 @@ int main(){
   Output output;
   output.getData();
   output.cetak();
-
-  return 0;
 }
