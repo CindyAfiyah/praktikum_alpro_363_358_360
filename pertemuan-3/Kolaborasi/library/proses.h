@@ -2,10 +2,6 @@ using namespace std;
 class Proses
 {
 public:
-	void cetak()
-	{
-		cout << "Anda sebagai Proses \n";
-	}
 	void getData()
 	{
 		ambil_data.open("api_data.txt");
@@ -80,11 +76,11 @@ public:
 			hargaDiskon = total * diskon;
 		}
 
+		// menghitung harga final
 		if (total >= batas3)
 		{
 			ongkir = ongkir - 8000;
 			hargaFinal = ongkir + (total - hargaDiskon);
-			cout << "ongkir : " << ongkir << endl;
 		}
 		else if (total >= batas2)
 		{
@@ -95,7 +91,6 @@ public:
 		{
 			ongkir = ongkir - 8000;
 			hargaFinal = ongkir + total;
-			cout << "ongkir : " << ongkir << endl;
 		}
 		else
 		{
