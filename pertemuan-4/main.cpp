@@ -8,15 +8,15 @@ using namespace std;
 
 int main()
 {
-  Input input;
-  input.cetak();
-  input.toFile();
+	Input input;
+	input.cetak();
+	input.toFile();
 
-  Proses proses;
-  proses.getData();
-  proses.toFile();
+	Proses proses;
+	proses.getData();
+	proses.toFile();
 
-  Output output;
-  output.getData();
-  output.cetak();
+	Output output;
+	output.getData();
+	output.cetak();
 }

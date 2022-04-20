@@ -134,22 +134,22 @@ public:
   }
   void toFile()
   {
-    float pengeluaran[12] = {pengeluaran1, pengeluaran2, pengeluaran3, pengeluaran4, pengeluaran5, pengeluaran6, pengeluaran7, pengeluaran8, pengeluaran9, pengeluaran10, pengeluaran11, pengeluaran12};
-    float pemasukkan[12] = {pemasukkan1, pemasukkan2, pemasukkan3, pemasukkan4, pemasukkan5, pemasukkan6, pemasukkan7, pemasukkan8, pemasukkan9, pemasukkan10, pemasukkan11, pemasukkan12};
+    double pengeluaran[12] = {pengeluaran1, pengeluaran2, pengeluaran3, pengeluaran4, pengeluaran5, pengeluaran6, pengeluaran7, pengeluaran8, pengeluaran9, pengeluaran10, pengeluaran11, pengeluaran12};
+    double pemasukkan[12] = {pemasukkan1, pemasukkan2, pemasukkan3, pemasukkan4, pemasukkan5, pemasukkan6, pemasukkan7, pemasukkan8, pemasukkan9, pemasukkan10, pemasukkan11, pemasukkan12};
     // menghitung pemasukkan
-    for (int i = 0; i < 11; i++)
+    for (int i = 0; i < 12; i++)
     {
       tabungan += pemasukkan[i];
     }
     // menghitung pengeluaran
-    for (int i = 0; i < 11; i++)
+    for (int i = 0; i < 12; i++)
     {
       outcome += pengeluaran[i];
     }
     // menghitung tabungan yang tersisa setelah dikurangi pengeluaran
-    float tabunganSekarang = tabungan - outcome;
+    double tabunganSekarang = tabungan - outcome;
     // menghitung rata-rata pengeluaran setiap bulan
-    float averagePengeluaran = outcome / 12;
+    double averagePengeluaran = outcome / 12;
     tulis_data.open("data/data_proses.txt");
     tulis_data << tabungan << endl;           // 0
     tulis_data << outcome << endl;            // 1
@@ -161,30 +161,30 @@ public:
 private:
   ifstream ambil_data;
   ofstream tulis_data;
-  float pengeluaran1;
-  float pengeluaran2;
-  float pengeluaran3;
-  float pengeluaran4;
-  float pengeluaran5;
-  float pengeluaran6;
-  float pengeluaran7;
-  float pengeluaran8;
-  float pengeluaran9;
-  float pengeluaran10;
-  float pengeluaran11;
-  float pengeluaran12;
-  float outcome = 0;
-  float pemasukkan1;
-  float pemasukkan2;
-  float pemasukkan3;
-  float pemasukkan4;
-  float pemasukkan5;
-  float pemasukkan6;
-  float pemasukkan7;
-  float pemasukkan8;
-  float pemasukkan9;
-  float pemasukkan10;
-  float pemasukkan11;
-  float pemasukkan12;
-  float tabungan = 0;
+  double pengeluaran1;
+  double pengeluaran2;
+  double pengeluaran3;
+  double pengeluaran4;
+  double pengeluaran5;
+  double pengeluaran6;
+  double pengeluaran7;
+  double pengeluaran8;
+  double pengeluaran9;
+  double pengeluaran10;
+  double pengeluaran11;
+  double pengeluaran12;
+  double outcome = 0;
+  double pemasukkan1;
+  double pemasukkan2;
+  double pemasukkan3;
+  double pemasukkan4;
+  double pemasukkan5;
+  double pemasukkan6;
+  double pemasukkan7;
+  double pemasukkan8;
+  double pemasukkan9;
+  double pemasukkan10;
+  double pemasukkan11;
+  double pemasukkan12;
+  double tabungan = 0;
 };

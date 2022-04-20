@@ -8,10 +8,10 @@ public:
     cout << "----------------------------" << endl;
     cout << "------Aplikasi Tabungan-----" << endl;
     cout << "----------------------------" << endl;
-    cout << "Tabungan : " << data_file[0] << endl;
-    cout << "Total Pengeluaran : " << data_file[1] << endl;
+    cout << "Tabungan                           : " << data_file[0] << endl;
+    cout << "Total Pengeluaran                  : " << data_file[1] << endl;
     cout << "Rata-rata pengeluaran setiap bulan : " << data_file[2] << endl;
-    cout << "Total tabungan : " << data_file[3] << endl;
+    cout << "Total tabungan                     : " << data_file[3] << endl;
     cout << endl;
   }
   void getData()
