@@ -42,5 +42,5 @@ public:
 
 private:
   ofstream tulis_data;
-  float masuk[12], keluar[12];
+  double masuk[12], keluar[12];
 };
