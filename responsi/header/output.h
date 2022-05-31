@@ -261,7 +261,7 @@ void Output::hitung()
 }
 void Output::cetak()
 {
-    system("clear");
+    system("cls");
     cout << "-----------------------------------------------" << endl;
     cout << "|               Rincian Pesanan               |\n";
     cout << "-----------------------------------------------" << endl;
