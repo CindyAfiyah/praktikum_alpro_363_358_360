@@ -7,7 +7,8 @@
 #include "header/output.h"
 using namespace std;
 
-int main() {
+int main()
+{
   Input input;
   Proses proses;
   Output output;
